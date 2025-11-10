@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:wght@300;400;700&display=swap');
+
+@font-face {
+    font-family: "Angelia Beauty";
+    src: url("Angelia Beauty.ttf") format("truetype"); 
+}
+
+body {
+    background-color: white;
+    text-indent: 10px;
+}
+
+section {
+    background-color: white;
+    margin-top: 30px;
+    box-shadow: 4px 5px 10px black;
+    border-radius: 5px;
+    border-color: rgb(0, 27, 102);
+    text-align: justify;
+    font-family: "Roboto";
+    padding: 5px 30px 5px;
+}
+
+header {
+    background-color: #3D8BF2;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 4px 5px 10px black;
+    padding-bottom: 10px;
+}
+
+header h1 {
+    padding-top: 30px;
+    text-align: center;
+}
+
+header h2 {
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    text-align: left;
+    color: white;
+    padding: 10px 10px 10px;
+    width: 100%;
+    margin-top: 30px;
+
+}
+
+#nome {
+    font-family: "Angelia Beauty", sans-serif;
+    font-size: 3.5em;
+}
+
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20 20px;
+}
+

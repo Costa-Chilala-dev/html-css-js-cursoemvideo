@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+/* Importando fontes */
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:wght@300;400;700&display=swap');
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.6;
+    background-color: #f5f7fa;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #3D8BF2;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+    border-radius: 0 0 20px 20px;
+}
+
+header h1 {
+    font-family: "Kaushan Script", cursive;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1rem;
+    opacity: 0.9;
+}
+
+/* Conteúdo principal */
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Seções */
+section {
+    background: white;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Títulos */
+h2, h3 {
+    color: #2a4301;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+
+/* Parágrafos */
+p {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+/* Listas */
+ul {
+    margin-left: 20px;
+    list-style: square;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Pequenas notas */
+small {
+    display: block;
+    margin-top: 5px;
+    font-size: 0.85rem;
+    color: #666;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #3D8BF2;
+    color: white;
+    font-size: 0.9rem;
+    margin-top: 40px;
+    border-radius: 20px 20px 0 0;
+}

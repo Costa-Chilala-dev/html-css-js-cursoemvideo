@@ -1,0 +1,309 @@
+@charset "UTF-8";
+
+/* Fontes externas */
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:wght@300;400;700&display=swap');
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #333;
+    background-color: #fff8f8;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background-color: #F7BACF;
+    padding: 30px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    font-family: "Kaushan Script", cursive;
+    font-size: 3em;
+    color: #A8E6A3;
+    margin-bottom: 10px;
+}
+
+header p, header h2 {
+    color: #333;
+}
+
+/* Navegação */
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #A8E6A3;
+}
+
+/* Seções principais */
+.cardapio, .contactos, .sobre-nós {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Cardápio */
+.cardapio h2 {
+    font-family: "Kaushan Script", cursive;
+    color: #F7BACF;
+    margin: 20px 0 10px 0;
+}
+
+.cardapio ul {
+    padding: 0;
+    margin: 0;
+}
+
+.cardapio li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px dashed #ddd;
+    font-weight: 400;
+}
+
+.cardapio li span.price {
+    font-weight: bold;
+    color: #A8E6A3;
+}
+
+.cardapio .slogan {
+    text-align: center;
+    font-style: italic;
+    color: #555;
+    margin-top: 20px;
+}
+
+/* CTA */
+#CTA {
+    max-width: 220px;
+    margin: 40px auto;
+    padding: 15px 20px;
+    border-radius: 30px;
+    background-color: #F7BACF;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+#CTA a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#CTA:hover {
+    background-color: #A8E6A3;
+}
+
+/* Contatos */
+.contactos h3 {
+    margin-bottom: 15px;
+    color: #F7BACF;
+}
+
+.contactos ul li {
+    margin: 15px 0;
+}
+
+.contactos a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.contactos a:hover {
+    color: #A8E6A3;
+}
+
+.contactos img {
+    width: 25px;
+    height: 25px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #F7BACF;
+    color: #fff;
+    margin-top: 40px;
+}
+
+/* Responsividade */
+@media screen and (max-width: 600px) {
+    header h1 {
+        font-size: 2.2em;
+    }
+
+    .cardapio li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #CTA {
+        width: 80%;
+    }
+}
+
+
+
+/*
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    list-style: none;
+}
+
+
+body{
+    margin: 0;
+    color: #333333;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    text-align: center;
+    background-color: #F7BACF;
+
+    width: 100%;
+    position: relative;
+
+    border-radius: 5px;
+
+    padding: 30px;
+}
+
+header h1{
+    font-family: "Kaushan Script", sans-serif;
+    font-size: 3.5em;
+    color: #A8E6A3;
+}
+
+.cardapio, .contactos {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.cardapio, .contactos {
+    background: white;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.cardapio ul {
+    padding: 0;
+    margin: 0;
+}
+
+.cardapio li {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px dashed #ddd;
+}
+
+.cardapio li span.price {
+    font-weight: bold;
+    color: #A8E6A3; 
+}
+
+
+.cardapio h2 {
+    color: #F7BACF; 
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: "Kaushan Script", cursive;
+}
+
+.cardapio .slogan {
+    margin-top: 20px;
+    text-align: center;
+    font-style: italic;
+    color: #555;
+}
+
+#CTA{
+    max-width: 200px;
+    background-color: #F7BACF;
+    text-align: center;
+    margin: 40px auto;
+    padding: 20px 20px;
+    border-radius: 30px;
+    box-shadow: 5px 10px 5px #333333;
+}
+
+#CTA p {
+    color: red;
+}
+
+
+.contactos img {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

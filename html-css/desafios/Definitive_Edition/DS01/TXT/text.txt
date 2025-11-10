@@ -1,0 +1,12 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cookie&family=Italianno&family=Kaushan+Script&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+</style>
+
+
+| Nome                 		| Cor                                              		          | Hex               | Uso sugerido                                    |
+| -------------------- 	| ------------------------------------------------ 	          | ---------       | ----------------------------------------------- |
+| **Café Espresso**    	| ![#4B2E05](https://www.colorhexa.com/4b2e05.png) | `#4B2E05`  | Cor principal (logo, títulos, detalhes fortes)  |
+| **Latte Cremoso**    	| ![#E9E2D0](https://www.colorhexa.com/e9e2d0.png) | `#E9E2D0` | Fundo suave ou base de cartões/menu             |
+| **Creme de Leite**   	| ![#F8F5F0](https://www.colorhexa.com/f8f5f0.png)    | `#F8F5F0` | Fundo principal (simula espuma do leite)        |
+| **Açúcar Mascavado** 	| ![#A47148](https://www.colorhexa.com/a47148.png)   | `#A47148`  | Botões, detalhes, títulos secundários           |
+| **Grão de Café**     	| ![#2C1B0C](https://www.colorhexa.com/2c1b0c.png)   | `#2C1B0C` | Texto escuro, bordas, contraste com tons claros |

@@ -1,0 +1,48 @@
+👉 Nós vendemos bolos caseiros, tortas e alguns doces pequenos (brigadeiros e cupcakes)
+
+TITULO: Delícias da Ana
+
+----------------------------------------------------------------------------------------------
+📩 Pedido de Cliente (exemplo realista):
+"Olá, preciso de um site simples para o meu negócio de bolos caseiros. Quero que tenha:
+
+Uma página inicial com fotos dos bolos e uma pequena apresentação.
+
+Uma página de cardápio com os preços.
+
+Uma página de contato com formulário e link para o WhatsApp.
+
+Se possível, que funcione bem no celular.
+O design não precisa ser nada muito sofisticado, só limpo e bonito."
+
+----------------------------------------------------------------------------------------------
+
+cardápio atual 🍰:
+
+Bolos Inteiros (20cm)
+Bolo de Chocolate — 7.000 Kz
+Bolo de Morango com Chantilly — 8.000 Kz
+Bolo de Cenoura com Cobertura de Chocolate — 6.500 Kz
+Bolo Red Velvet — 9.500 Kz
+
+Tortas
+Torta de Limão — 5.500 Kz
+Torta de Maracujá — 6.000 Kz
+
+Doces Individuais
+Brigadeiro (unidade) — 300 Kz
+Cupcake de Baunilha — 1.000 Kz
+Cupcake de Chocolate — 1.200 Kz
+
+SLOGAN: “Feito com carinho, entregue com sabor.”
+
+📌 Obs.: Fazemos encomendas com pelo menos 24h de antecedência.
+
+cor principal = #F7BACF
+cr_01 = #BACAF7
+cr_03 = #BAF7BF
+cr_04 = #F7E6BA
+
+
+
+
